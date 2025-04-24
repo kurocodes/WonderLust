@@ -1,12 +1,10 @@
 const { ObjectId } = require("mongoose").Types;
 
 const ownerIds = [
-  new ObjectId("67f9d9386b5b13981f16ddf8"),
-  new ObjectId("67f9dfa170dad22a21c7dc4e"),
-  new ObjectId("67fb2949b8486e2e2f0ec921"),
-  new ObjectId("67fb2e6ebdb77c7876bd123b"),
-  new ObjectId("67fdcb779b2ff69a3f6a079d"),
-  new ObjectId("67fdceea6e442eeb5cd7ff33"),
+  new ObjectId("68071814eaea941b3ae02115"),
+  new ObjectId("68072148a65337140e0069b6"),
+  new ObjectId("6809a7ec122e98cabd3299bf"),
+  new ObjectId("6809a83f122e98cabd3299c6"),
 ];
 
 const sampleListings = [
@@ -21,7 +19,7 @@ const sampleListings = [
     location: "New York City",
     country: "United States",
     reviews: [],
-    owner: ownerIds[4],
+    owner: ownerIds[3],
     geometry: {
       type: "Point",
       coordinates: [-74.006, 40.7128],
@@ -76,7 +74,7 @@ const sampleListings = [
     location: "Zermatt",
     country: "Switzerland",
     reviews: [],
-    owner: ownerIds[5],
+    owner: ownerIds[2],
     geometry: {
       type: "Point",
       coordinates: [7.7491, 46.0207],
@@ -130,7 +128,7 @@ const sampleListings = [
     location: "Wadi Rum",
     country: "Jordan",
     reviews: [],
-    owner: ownerIds[4],
+    owner: ownerIds[0],
     geometry: {
       type: "Point",
       coordinates: [35.4196, 29.5328],
@@ -221,7 +219,7 @@ const sampleListings = [
     location: "Berlin",
     country: "Germany",
     reviews: [],
-    owner: ownerIds[5],
+    owner: ownerIds[1],
     geometry: {
       type: "Point",
       coordinates: [13.405, 52.52],
@@ -293,7 +291,7 @@ const sampleListings = [
     location: "Aspen",
     country: "United States",
     reviews: [],
-    owner: ownerIds[4],
+    owner: ownerIds[3],
     geometry: {
       type: "Point",
       coordinates: [-106.8175, 39.1911],
@@ -313,7 +311,7 @@ const sampleListings = [
     country: "Brazil",
     reviews: [],
     category: "Amazing Pools",
-    owner: new ObjectId("67f9dfa170dad22a21c7dc4e"),
+    owner: ownerIds[0],
   },
   {
     image: {
@@ -328,7 +326,7 @@ const sampleListings = [
     country: "Russia",
     reviews: [],
     category: "Castles",
-    owner: new ObjectId("67fb2949b8486e2e2f0ec921"),
+    owner: ownerIds[1],
   },
   {
     image: {
@@ -343,7 +341,7 @@ const sampleListings = [
     country: "Estonia",
     reviews: [],
     category: "Domes",
-    owner: new ObjectId("67fdceea6e442eeb5cd7ff33"),
+    owner: ownerIds[2],
   },
   {
     image: {
@@ -358,7 +356,7 @@ const sampleListings = [
     country: "Japan",
     reviews: [],
     category: "Rooms",
-    owner: new ObjectId("67fb2e6ebdb77c7876bd123b"),
+    owner: ownerIds[3],
   },
   {
     image: {
@@ -373,7 +371,7 @@ const sampleListings = [
     country: "India",
     reviews: [],
     category: "Camping",
-    owner: new ObjectId("67fdcb779b2ff69a3f6a079d"),
+    owner: ownerIds[2],
   },
   {
     image: {
@@ -388,7 +386,7 @@ const sampleListings = [
     country: "United States",
     reviews: [],
     category: "Arctic",
-    owner: new ObjectId("67f9d9386b5b13981f16ddf8"),
+    owner: ownerIds[1],
   },
   {
     image: {
@@ -403,7 +401,7 @@ const sampleListings = [
     country: "Spain",
     reviews: [],
     category: "Iconic Cities",
-    owner: new ObjectId("67f9dfa170dad22a21c7dc4e"),
+    owner: ownerIds[0],
   },
   {
     image: {
@@ -418,7 +416,7 @@ const sampleListings = [
     country: "Kenya",
     reviews: [],
     category: "Farms",
-    owner: new ObjectId("67fdceea6e442eeb5cd7ff33"),
+    owner: ownerIds[3],
   },
   {
     image: {
@@ -433,7 +431,7 @@ const sampleListings = [
     country: "Oman",
     reviews: [],
     category: "Domes",
-    owner: new ObjectId("67fb2949b8486e2e2f0ec921"),
+    owner: ownerIds[0],
   },
   {
     image: {
@@ -448,7 +446,7 @@ const sampleListings = [
     country: "Netherlands",
     reviews: [],
     category: "Boats",
-    owner: new ObjectId("67fdcb779b2ff69a3f6a079d"),
+    owner: ownerIds[1],
   },
   {
     image: {
@@ -463,7 +461,7 @@ const sampleListings = [
     country: "Italy",
     reviews: [],
     category: "Iconic Cities",
-    owner: new ObjectId("67fb2e6ebdb77c7876bd123b"),
+    owner: ownerIds[2],
   },
   {
     image: {
@@ -478,7 +476,7 @@ const sampleListings = [
     country: "Spain",
     reviews: [],
     category: "Mountains",
-    owner: new ObjectId("67f9d9386b5b13981f16ddf8"),
+    owner: ownerIds[2],
   },
   {
     image: {
@@ -493,7 +491,7 @@ const sampleListings = [
     country: "Slovakia",
     reviews: [],
     category: "Castles",
-    owner: new ObjectId("67fdceea6e442eeb5cd7ff33"),
+    owner: ownerIds[3],
   },
   {
     image: {
@@ -508,7 +506,7 @@ const sampleListings = [
     country: "United Arab Emirates",
     reviews: [],
     category: "Rooms",
-    owner: new ObjectId("67f9dfa170dad22a21c7dc4e"),
+    owner: ownerIds[0],
   },
   {
     image: {
@@ -523,7 +521,7 @@ const sampleListings = [
     country: "Poland",
     reviews: [],
     category: "Domes",
-    owner: new ObjectId("67fb2949b8486e2e2f0ec921"),
+    owner: ownerIds[1],
   },
 ];
 
