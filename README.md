@@ -2,7 +2,7 @@
 
 **Wonderlust** is an Airbnb-style booking platform where users can explore beautiful places to stay, leave reviews, and share their own listings.
 
-👉 [View Live Site](wonderlust-ud0p.onrender.com)
+👉 [View Live Site](https://wonderlust-ud0p.onrender.com/)
 
 Built with **Express.js**, **MongoDB**, and **EJS**, this project includes:
 
